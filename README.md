@@ -7,4 +7,5 @@
 2. 命令行运行:
 > cordova run ios
 3. 运行效果:
-![运行效果](https://ws1.sinaimg.cn/large/006tNc79gy1fh13fcjnflg30a006o764.gif)
+
+[运行效果](https://ws1.sinaimg.cn/large/006tNc79gy1fh13fcjnflg30a006o764.gif)
