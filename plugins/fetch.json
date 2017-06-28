@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.charls.MyPlugin": {
+        "source": {
+            "type": "local",
+            "path": "/Users/charls/Desktop/demos/demo/node_modules/MyPlugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

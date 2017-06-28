@@ -1,0 +1,17 @@
+{
+  "name": "MyPlugin",
+  "version": "0.0.1",
+  "description": "this is MyPlugin",
+  "cordova": {
+    "id": "com.charls.MyPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Charls",
+  "license": "MIT"
+}

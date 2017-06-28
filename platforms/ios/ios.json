@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"MyPlugin\"><param name=\"ios-package\" value=\"MyPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.charls.demo"
+        },
+        "com.charls.MyPlugin": {
+            "PACKAGE_NAME": "com.charls.demo"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "com.charls.MyPlugin.MyPlugin",
+            "file": "plugins/com.charls.MyPlugin/www/MyPlugin.js",
+            "pluginId": "com.charls.MyPlugin",
+            "clobbers": [
+                "com.charls.MyPlugin"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.3.2",
+        "com.charls.MyPlugin": "0.0.1"
+    }
+}
