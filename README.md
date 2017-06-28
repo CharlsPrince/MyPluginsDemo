@@ -1,0 +1,2 @@
+# MyPluginsDemo
+这是一个关于创建Cordova插件的Demo
